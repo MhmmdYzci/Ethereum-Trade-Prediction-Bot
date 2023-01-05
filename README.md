@@ -4,15 +4,15 @@ In order to use this bot, you must contact the developers and be taken to the te
 After importing the necessary libraries, you can run the trade_bot_start_py file and use the bot.
 
 Required Libraries:
-from PyQt5 import QtCore, QtWidgets
-import sys
-from PyQt5.QtWidgets import *
-import threading
-import os
-import requests
-import pandas as pd
-from ta.trend import EMAIndicator
-import websocket, json, numpy, talib
+from PyQt5 import QtCore, QtWidgets, 
+sys,
+from PyQt5.QtWidgets import *,
+threading,
+os,
+requests,
+import pandas as pd,
+from ta.trend import EMAIndicator,
+websocket, json, numpy, talib
 
 If you get an error in the talib installation, follow this directive:
 https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib
